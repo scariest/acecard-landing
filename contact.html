@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <!-- Primary Meta Tags -->
+  <title>OACEC - Contact Page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+  <meta name="title" content="OACEC - Contact Page" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/favicon/favicon.png" type="image/png" />
+  <!-- Fontawesome -->
+  <link type="text/css" href="assets/js/vendor/%40fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <!-- Nucleo icons -->
+  <link rel="stylesheet" href="assets/css/nucleo/css/nucleo.css" type="text/css" />
+  <!-- Prism -->
+  <link type="text/css" href="assets/css/vendor/prismjs/themes/prism.css" rel="stylesheet" />
+  <!-- Front CSS -->
+  <link type="text/css" href="assets/css/front.css" rel="stylesheet" />
+  <style>
+    .async-hide {
+      opacity: 0 !important;
+    }
+    
+    /* Contact form alerts */
+    .contact-alert {
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      animation: slideInRight 0.3s ease-out;
+    }
+    
+    @keyframes slideInRight {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+    
+    .contact-alert .close {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+    
+    .contact-alert .close:hover {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header-global">
+    <nav id="navbar-main"
+      class="navbar navbar-main navbar-expand-lg headroom py-lg-3 px-lg-6 navbar-dark navbar-theme-primary">
+      <div class="container">
+        <a class="navbar-brand @@logo_classes" href="index.html"><img class="navbar-brand-dark common"
+            src="assets/img/brand/white_logo.PNG" height="35" alt="Logo light" />
+          <img class="navbar-brand-light common" src="assets/img/brand/blue_logo.png" height="35" alt="Logo dark" /></a>
+        <div class="navbar-collapse collapse" id="navbar_global">
+          <div class="navbar-collapse-header">
+            <div class="row">
+              <div class="col-6 collapse-brand">
+                <a href="index.html"><img src="assets/img/brand/blue_logo.png" height="35" alt="Logo OACEC" /></a>
+              </div>
+              <div class="col-6 collapse-close">
+                <a href="#navbar_global" role="button" class="fas fa-times" data-toggle="collapse"
+                  data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
+                  aria-label="Toggle navigation"></a>
+              </div>
+            </div>
+          </div>
+          <ul class="navbar-nav navbar-nav-hover justify-content-center">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-none d-lg-block @@cta_button_classes">
+          <!-- <a href="../../docs/dashboard/alerts/index.html" class="btn btn-md btn-outline-white animate-up-2 mr-3"><i
+              class="fas fa-book mr-1"></i> Components</a> -->
+          <a href="#" class="btn btn-md btn-secondary animate-up-2">Book Demo</a>
+        </div>
+        <div class="d-flex d-lg-none align-items-center">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
+            aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="section-header bg-primary text-white pb-9 pb-lg-13 mb-4 mb-lg-6">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+            <h1 class="display-2 mb-3">Got a question?</h1>
+            <p class="lead">We’re here to help! Reach out to us anytime.</p>
+          </div>
+        </div>
+      </div>
+      <div class="pattern bottom"></div>
+    </section>
+    <div class="section section-lg pt-0">
+      <div class="container mt-n8 mt-lg-n13 z-2">
+        <div class="row justify-content-center">
+          <div class="col-12"><!-- Card -->
+            <div class="card border-light shadow-soft p-2 p-md-4 p-lg-5">
+              <div class="card-body">
+                <form>
+                  <div class="row">
+                    <div class="col-12 col-md-6">
+                      <div class="form-group"><label class="form-label text-dark" for="firstNameLabel">First Name <span
+                            class="text-danger">*</span></label>
+                        <div class="input-group mb-4">
+                          <div class="input-group-prepend"><span class="input-group-text"><i
+                                class="fas fa-user-alt"></i></span></div><input class="form-control" id="firstNameLabel"
+                            name="firstName" placeholder="John" type="text" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="form-group"><label class="form-label text-dark" for="lastNameLabel">Last Name <span
+                            class="text-danger">*</span></label>
+                        <div class="input-group mb-4">
+                          <div class="input-group-prepend"><span class="input-group-text"><i
+                                class="fas fa-user-alt"></i></span></div><input class="form-control" id="lastNameLabel"
+                            name="lastName" placeholder="Doe" type="text" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="form-group"><label class="form-label text-dark" for="EmailLabel">Email <span
+                            class="text-danger">*</span></label>
+                        <div class="input-group mb-4">
+                          <div class="input-group-prepend"><span class="input-group-text"><i
+                                class="fas fa-envelope"></i></span></div><input class="form-control" id="EmailLabel"
+                            name="email" placeholder="example@company.com" type="email" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <div class="form-group"><label class="form-label text-dark" for="phonenumberLabel">Phone
+                          Number<span class="text-danger">*</span></label>
+                        <div class="input-group mb-4">
+                          <div class="input-group-prepend"><span class="input-group-text"><i
+                                class="fas fa-phone-square-alt"></i></span></div><input class="form-control"
+                            id="phonenumberLabel" name="phone" placeholder="07012 345678" type="tel" required>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-4">
+                      <div class="form-group"><label class="form-label text-dark" for="phonenumberLabel">How can we help
+                          you?<span class="text-danger">*</span></label> <textarea class="form-control"
+                          name="message" placeholder="Hi OACEC, I would like to ..." id="message-2" rows="8" required></textarea>
+                      </div>
+                      <div class="text-center"><button type="submit" class="btn btn-secondary mt-4 animate-up-2"><span
+                            class="mr-2"><i class="fas fa-paper-plane"></i></span>Send Message</button></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-lg pt-0 line-bottom-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center px-4 mb-5 mb-lg-0">
+            <div class="icon icon-sm icon-shape icon-shape-primary rounded mb-4"><i
+                class="fas fa-envelope-open-text"></i></div>
+            <h5 class="mb-3">Email us</h5>
+            <p>For general inquiries, please reach out to us via email.</p><a
+              class="font-weight-bold text-primary" href="#"><span class="__cf_email__"
+                data-cfemail="670801010e04022704080a1706091e4904080a">[email&#160;protected]</span></a>
+          </div>
+          <div class="col-12 col-md-4 text-center px-4 mb-5 mb-lg-0">
+            <div class="icon icon-sm icon-shape icon-shape-primary rounded mb-4"><i class="fas fa-phone-volume"></i>
+            </div>
+            <h5 class="mb-3">Call us</h5>
+            <p>Call us to speak to a member of our team. We are always happy to help you.</p><a
+              class="font-weight-bold text-primary" href="#">07939 399669</a>
+          </div>
+          <div class="col-12 col-md-4 text-center px-4">
+            <div class="icon icon-sm icon-shape icon-shape-primary rounded mb-4"><i class="fas fa-headset"></i></div>
+            <h5 class="mb-3">Support</h5>
+            <p>For technical support.</p><a class="btn btn-sm btn-outline-primary" href="#">Support Center <span
+                class="fas fa-long-arrow-alt-right ml-2"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="section section-lg bg-soft">
+      <div class="container">
+        <div class="row justify-content-center mb-4 mb-lg-6">
+          <div class="col-12 col-lg-8 text-center">
+            <h1 class="display-3 mb-4">Frequently asked questions</h1>
+            <p class="lead text-gray">Here’s what you need to know about OACEC, based on the questions we
+              get asked the most.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8"><!--Accordion-->
+            <div class="accordion">
+              <div class="card card-sm card-body border border-light rounded mb-3">
+                <div data-target="#panel-1" class="accordion-panel-header" data-toggle="collapse" role="button"
+                  aria-expanded="false" aria-controls="panel-1"><span class="h6 mb-0">Who is the app designed
+                    for?</span> <span class="icon"><i class="fas fa-angle-down"></i></span></div>
+                <div class="collapse" id="panel-1">
+                  <div class="pt-3">
+                    <p class="mb-0">The platform is designed for offshore oil and gas operators, HSE departments, and
+                      contractors who need an easy way to capture and manage safety observations.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-sm card-body border border-light rounded mb-3">
+                <div data-target="#panel-2" class="accordion-panel-header" data-toggle="collapse" role="button"
+                  aria-expanded="false" aria-controls="panel-2"><span class="h6 mb-0">Can this be used outside oil and
+                    gas?</span> <span class="icon"><i class="fas fa-angle-down"></i></span></div>
+                <div class="collapse" id="panel-2">
+                  <div class="pt-3">
+                    <p class="mb-0">Yes. While built for offshore, the system can be adapted for construction, mining,
+                      or any sector with high safety reporting needs.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-sm card-body border border-light rounded mb-3">
+                <div data-target="#panel-3" class="accordion-panel-header" data-toggle="collapse" role="button"
+                  aria-expanded="false" aria-controls="panel-3"><span class="h6 mb-0">Does the app work offline?</span>
+                  <span class="icon"><i class="fas fa-angle-down"></i></span>
+                </div>
+                <div class="collapse" id="panel-3">
+                  <div class="pt-3">
+                    <p class="mb-0">Yes. Crews can submit cards without a connection. Once connectivity is restored, the
+                      data automatically syncs.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5 mt-lg-6">
+                <div class="col text-center"><a href="faq.html" class="btn btn-primary animate-up-2"><span
+                      class="mr-2"><i class="fas fa-question-circle"></i></span> See all FAQ</a></div>
+              </div>
+            </div><!--End of Accordion-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer section pt-6 pt-md-8 pt-lg-10 pb-3 bg-primary text-white overflow-hidden">
+      <div class="pattern pattern-soft top"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <a class="footer-brand mr-lg-5 d-flex" href="index.html"><img src="assets/img/brand/white_logo.PNG"
+                height="35" class="mr-3" alt="Footer logo" /></a>
+            <p class="my-4">
+              OACEC is a provider of digital solutions for the
+              offshore industry, specialising in safety reporting and
+              compliance tools. Our mission is to enhance safety and efficiency
+              through innovative technology that empowers teams to act quickly
+              and effectively.
+            </p>
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2 mb-4 mb-lg-0">
+
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2 mb-4 mb-lg-0">
+            <h6>OACEC</h6>
+            <ul class="links-vertical">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="about.html">About OACEC</a>
+              </li>
+              <li>
+                <a href="faq.html">FAQs</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 col-lg-2 mb-4 mb-lg-0">
+            <h6>Resources</h6>
+            <ul class="links-vertical">
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4 my-lg-5" />
+        <div class="row">
+          <div class="col pb-4 mb-md-0">
+            <div class="d-flex text-center justify-content-center align-items-center">
+              <p class="font-weight-normal mb-0">
+                Copyright © 2025. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <!-- Core -->
+  <script src="assets/js/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="assets/js/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="assets/js/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="assets/js/vendor/headroom.js/dist/headroom.min.js"></script>
+  <!-- Vendor JS -->
+  <script src="assets/js/vendor/onscreen/dist/on-screen.umd.min.js"></script>
+  <script src="assets/js/vendor/nouislider/distribute/nouislider.min.js"></script>
+  <script src="assets/js/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+  <script src="assets/js/vendor/owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="assets/js/vendor/jarallax/dist/jarallax.min.js"></script>
+  <script src="assets/js/vendor/countup.js/dist/countUp.min.js"></script>
+  <script src="assets/js/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
+  <script src="assets/js/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="assets/js/vendor/prismjs/prism.js"></script>
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer="defer" src="assets/js/buttons.js"></script>
+  <!-- Impact JS -->
+  <script src="assets/js/front.js"></script>
+  
+  <!-- Contact Form Handler -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const contactForm = document.querySelector('form');
+      const submitButton = contactForm.querySelector('button[type="submit"]');
+      const originalButtonText = submitButton.innerHTML;
+      
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Get form data
+        const formData = new FormData(contactForm);
+        const firstName = document.getElementById('firstNameLabel').value.trim();
+        const lastName = document.getElementById('lastNameLabel').value.trim();
+        const email = document.getElementById('EmailLabel').value.trim();
+        const phone = document.getElementById('phonenumberLabel').value.trim();
+        const message = document.getElementById('message-2').value.trim();
+        
+        // Basic validation
+        if (!firstName || !lastName || !email || !phone || !message) {
+          showAlert('Please fill in all required fields.', 'error');
+          return;
+        }
+        
+        // Email validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+          showAlert('Please enter a valid email address.', 'error');
+          return;
+        }
+        
+        // Show loading state
+        submitButton.disabled = true;
+        submitButton.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Sending...';
+        
+        // Simulate form submission (replace with actual backend endpoint)
+        setTimeout(() => {
+          // Reset button
+          submitButton.disabled = false;
+          submitButton.innerHTML = originalButtonText;
+          
+          // Show success message
+          showAlert('Thank you for your message! We\'ll get back to you soon.', 'success');
+          
+          // Reset form
+          contactForm.reset();
+          
+          // In a real implementation, you would send the data to your backend:
+          // fetch('/submit-contact', {
+          //   method: 'POST',
+          //   body: formData
+          // }).then(response => {
+          //   // handle response
+          // });
+          
+        }, 2000);
+      });
+      
+      function showAlert(message, type) {
+        // Remove any existing alerts
+        const existingAlert = document.querySelector('.contact-alert');
+        if (existingAlert) {
+          existingAlert.remove();
+        }
+        
+        // Create new alert
+        const alertDiv = document.createElement('div');
+        alertDiv.className = `alert alert-${type === 'success' ? 'success' : 'danger'} contact-alert`;
+        alertDiv.style.cssText = 'position: fixed; top: 20px; right: 20px; z-index: 9999; min-width: 300px;';
+        alertDiv.innerHTML = `
+          <div class="d-flex align-items-center">
+            <i class="fas fa-${type === 'success' ? 'check-circle' : 'exclamation-circle'} mr-2"></i>
+            <span>${message}</span>
+            <button type="button" class="close ml-auto" onclick="this.parentElement.parentElement.remove()">
+              <span>&times;</span>
+            </button>
+          </div>
+        `;
+        
+        document.body.appendChild(alertDiv);
+        
+        // Auto remove after 5 seconds
+        setTimeout(() => {
+          if (alertDiv.parentElement) {
+            alertDiv.remove();
+          }
+        }, 5000);
+      }
+    });
+  </script>
+</body>
+
+</html>
