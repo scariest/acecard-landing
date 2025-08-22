@@ -1,78 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
-<head>
-  <!-- Primary Meta Tags -->
-  <title>OACEC - FAQ Page</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
-  <meta name="title" content="OACEC - FAQ Page" />
-
-  <!-- Favicon -->
-  <link rel="icon" href="assets/img/favicon/favicon.png" type="image/png" />
-  <!-- Fontawesome -->
-  <link type="text/css" href="assets/js/vendor/%40fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" />
-  <!-- Nucleo icons -->
-  <link rel="stylesheet" href="assets/css/nucleo/css/nucleo.css" type="text/css" />
-  <!-- Prism -->
-  <link type="text/css" href="assets/css/vendor/prismjs/themes/prism.css" rel="stylesheet" />
-  <!-- Front CSS -->
-  <link type="text/css" href="assets/css/front.css" rel="stylesheet" />
-  <style>
-    .async-hide {
-      opacity: 0 !important;
-    }
-  </style>
-</head>
-
-<body>
-  <header class="header-global">
-    <nav id="navbar-main"
-      class="navbar navbar-main navbar-expand-lg headroom py-lg-3 px-lg-6 navbar-dark navbar-theme-primary">
-      <div class="container">
-        <a class="navbar-brand @@logo_classes" href="index.html"><img class="navbar-brand-dark common"
-            src="assets/img/brand/white_logo.PNG" height="35" alt="Logo light" />
-          <img class="navbar-brand-light common" src="assets/img/brand/blue_logo.png" height="35" alt="Logo dark" /></a>
-        <div class="navbar-collapse collapse" id="navbar_global">
-          <div class="navbar-collapse-header">
-            <div class="row">
-              <div class="col-6 collapse-brand">
-                <a href="index.html"><img src="assets/img/brand/blue_logo.png" height="35" alt="Logo OACEC" /></a>
-              </div>
-              <div class="col-6 collapse-close">
-                <a href="#navbar_global" role="button" class="fas fa-times" data-toggle="collapse"
-                  data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
-                  aria-label="Toggle navigation"></a>
-              </div>
-            </div>
-          </div>
-          <ul class="navbar-nav navbar-nav-hover justify-content-center">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="about.html" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="contact.html" class="nav-link">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class="d-none d-lg-block @@cta_button_classes">
-          <!-- <a href="../../docs/dashboard/alerts/index.html" class="btn btn-md btn-outline-white animate-up-2 mr-3"><i
-              class="fas fa-book mr-1"></i> Components</a> -->
-          <a href="" class="btn btn-md btn-secondary animate-up-2">Book Demo</a>
-        </div>
-        <div class="d-flex d-lg-none align-items-center">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
-            aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </nav>
-  </header>
+<?php
+$page_title = "FAQ Page";
+include 'partials/header.php';
+?>
   <main>
     <section class="section-header pb-9 pb-lg-12 mb-4 mb-lg-6 bg-primary text-white">
       <div class="container">
@@ -217,85 +146,13 @@
         </div>
       </div>
     </section>
-    <footer class="footer section pt-6 pt-md-8 pt-lg-10 pb-3 bg-primary text-white overflow-hidden">
-      <div class="pattern pattern-soft top"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 mb-4 mb-lg-0">
-            <a class="footer-brand mr-lg-5 d-flex" href="index.html"><img src="assets/img/brand/white_logo.PNG"
-                height="35" class="mr-3" alt="Footer logo" /></a>
-            <p class="my-4">
-              OACEC is a provider of digital solutions for the
-              offshore industry, specialising in safety reporting and
-              compliance tools. Our mission is to enhance safety and efficiency
-              through innovative technology that empowers teams to act quickly
-              and effectively.
-            </p>
-          </div>
-          <div class="col-6 col-sm-3 col-lg-2 mb-4 mb-lg-0">
 
-          </div>
-          <div class="col-6 col-sm-3 col-lg-2 mb-4 mb-lg-0">
-            <h6>OACEC</h6>
-            <ul class="links-vertical">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="about.html">About OACEC</a>
-              </li>
-              <li>
-                <a href="faq.html">FAQs</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-6 col-sm-3 col-lg-2 mb-4 mb-lg-0">
-            <h6>Resources</h6>
-            <ul class="links-vertical">
-              <li>
-                <a href="#">Terms & Conditions</a>
-              </li>
-              <li>
-                <a href="#">Privacy Policy</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <hr class="my-4 my-lg-5" />
-        <div class="row">
-          <div class="col pb-4 mb-md-0">
-            <div class="d-flex text-center justify-content-center align-items-center">
-              <p class="font-weight-normal mb-0">
-                Copyright © 2025. All rights reserved.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </main>
-  <!-- Core -->
-  <script src="assets/js/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="assets/js/vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="assets/js/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="assets/js/vendor/headroom.js/dist/headroom.min.js"></script>
-  <!-- Vendor JS -->
-  <script src="assets/js/vendor/onscreen/dist/on-screen.umd.min.js"></script>
-  <script src="assets/js/vendor/nouislider/distribute/nouislider.min.js"></script>
-  <script src="assets/js/vendor/waypoints/lib/jquery.waypoints.min.js"></script>
-  <script src="assets/js/vendor/owl.carousel/dist/owl.carousel.min.js"></script>
-  <script src="assets/js/vendor/jarallax/dist/jarallax.min.js"></script>
-  <script src="assets/js/vendor/countup.js/dist/countUp.min.js"></script>
-  <script src="assets/js/vendor/jquery-countdown/dist/jquery.countdown.min.js"></script>
-  <script src="assets/js/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-  <script src="assets/js/vendor/prismjs/prism.js"></script>
-  <!-- Place this tag in your head or just before your close body tag. -->
-  <script async defer="defer" src="assets/js/buttons.js"></script>
-  <!-- Impact JS -->
-  <script src="assets/js/front.js"></script>
+    <!-- Demo Booking Modal -->
+    <?php include 'partials/bookDemoForm.php'; ?>
+
+  <!-- Footer -->
+  <?php include 'partials/footer.php'; ?>
+
 </body>
 
 </html>
